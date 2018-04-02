@@ -5,3 +5,11 @@ h1 {
 #show-location {
   display:none;
 }
+
+.testPlace {
+  cursor: pointer;
+  color: red;
+}
+.testPlace {
+  text-decoration: underline;
+}
