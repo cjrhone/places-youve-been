@@ -18,7 +18,6 @@ $(document).ready(function() {
 
 
 
-
   var inputtedLocation = $("input#newLocation").val();
   var inputtedLandmarks = $("input#newLandmarks").val();
   var inputtedTime = $("input#newTime").val();
@@ -27,7 +26,7 @@ $(document).ready(function() {
   $("ul#places").append("<li><span class='testPlace'>" + newPlace.allInfo() + "</span></li>")
 
   $(".testPlace").last().click(function() {
-  $("#show-location").show();
+  $("#show-location").fadeIn();
   $("#show-location h2").text(newPlace.location);
   $(".location").text(newPlace.location);
   $(".landmarks").text(newPlace.landmarks);
